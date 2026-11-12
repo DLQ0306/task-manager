@@ -4,10 +4,11 @@
   "private": true,
   "description": "智能任务管理系统：Node.js 后端 + React 前端 + Supabase 数据库 + Vercel 部署",
   "scripts": {
-    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
-    "build": "cd client && npm run build && rm -rf ../server/public && cp -r dist ../server/public",
     "start": "node server/server.js",
-    "dev:server": "node server/server.js",
-    "dev:client": "cd client && npm run dev"
+    "build": "echo \"frontend is prebuilt in server/public\""
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "express": "^4.21.0"
   }
 }
