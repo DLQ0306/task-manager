@@ -1,0 +1,14 @@
+{
+  "name": "task-manager-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "智能任务管理系统后端（Node.js + Express + Supabase）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "express": "^4.21.0"
+  }
+}
